@@ -7,6 +7,8 @@ import (
 )
 
 func Initiliaze() {
+	//Função que está definida no meu arquivo routes.go no pacote router
+	printMe()
 	router := gin.Default()
 
 	router.GET("/ping", func(c *gin.Context) {
